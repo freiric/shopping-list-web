@@ -1,0 +1,10 @@
+# generated file
+# compiled project
+target/
+# fetched dependencies
+lib_managed/
+# fetched generated sources
+src_managed/
+# sbt and scala version needed to compile this project
+project/boot/
+*~
