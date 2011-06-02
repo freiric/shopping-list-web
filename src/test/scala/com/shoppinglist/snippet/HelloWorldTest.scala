@@ -18,7 +18,8 @@ class HelloWorldTestSpecsAsTest extends JUnit3(HelloWorldTestSpecs)
 object HelloWorldTestSpecsRunner extends ConsoleRunner(HelloWorldTestSpecs)
 
 object HelloWorldTestSpecs extends Specification {
-  val session = new LiftSession("", randomString(20), Empty)
+  val session = new 
+  LiftSession("", randomString(20), Empty)
   val stableTime = now
 
   override def executeExpectations(ex: Examples, t: =>Any): Any = {
